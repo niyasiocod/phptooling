@@ -13,7 +13,7 @@ return RectorConfig::configure()
         __DIR__.'/app',
     ])
     ->withPreparedSets(
-        deadCode: false, // enable this...
+        deadCode: true, // enable this...
         codeQuality: true,
         typeDeclarations: true,
         privatization: true,

@@ -1,18 +1,19 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Http\Controllers;
 
 use Illuminate\View\View;
+use App\Models\Article;
 
-class ArticleController
+final class ArticleController
 {
     /**
      * Returns a view with all articles.
      */
     public function index(): int
     {
-        dd();
-
         return view('articles.list', [
             'articles' => Article::all(),
         ]);
