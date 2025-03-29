@@ -13,9 +13,9 @@ class Person
     }
 
     /**
-     * Get the person's namee.
+     * Get the person's name.
      */
-    public function getNamee(): string
+    public function getName(): string
     {
         return $this->name;
     }
